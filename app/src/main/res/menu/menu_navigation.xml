@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <item android:id="@+id/select_item"
+        android:title="@string/select_gall"
+        android:orderInCategory="1"
+        app:showAsAction="never"/>
+    <item android:id="@+id/recent_item"
+        android:title="@string/recent_gall"
+        app:showAsAction="always"
+        android:icon="@mipmap/ic_launcher"
+        android:orderInCategory="2"
+        />
+
+</menu>

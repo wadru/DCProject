@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">DcApp</string>
+    <string name="gall_search">갤러리 검색</string>
+    <string name="select_gall">즐겨찾는 갤러리</string>
+    <string name="recent_gall">최근 방문 갤러리</string>
+    <string name="menu_refresh">refresh</string>
+</resources>
