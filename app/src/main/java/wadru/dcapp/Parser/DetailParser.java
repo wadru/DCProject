@@ -51,7 +51,7 @@ public class DetailParser extends AsyncHttpResponseHandler {
                     try {
                         res = IOUtils.toString(responseBody, "UTF-8");
 
-                        String src = res.replaceFirst("<html>(.|[\\r\\n])*<pre></pre>","");
+                        String src = res.replaceFirst("<html[^>]*(.|[\\r\\n])*<div class=\"con_substance\">","");
 //                        src = src.replaceFirst("<div id[^>]*>(.|[\\r\\n])*<pre></pre>","");
                         src = src.replaceFirst("<div class=\"con_banner[^>]*>(.|[\\r\\n])*</html>","");
 
